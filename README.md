@@ -1,2 +1,0 @@
-# Proyecto
-Escuela Proyecto

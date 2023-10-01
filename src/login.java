@@ -27,7 +27,11 @@ public class login extends javax.swing.JFrame {
         this.getContentPane().setBackground(azul); //Cambiar color de fondo
         setExtendedState(MAXIMIZED_BOTH); //this.setExtendedState(MAXIMIZED_BOTH); //Tamaño
         
-        
+        ImageIcon imagen1 = new ImageIcon("compuline_logo.png");
+        JLabel imginv = new JLabel(new ImageIcon("compuline_logo.png"));
+        imginv.setBounds(210,210,254,230);
+        imginv.setIcon(new ImageIcon(imagen1.getImage().getScaledInstance(200,200, Image.SCALE_SMOOTH)));
+        panel1.add(imginv);
     }
     
     public void conectar(){
